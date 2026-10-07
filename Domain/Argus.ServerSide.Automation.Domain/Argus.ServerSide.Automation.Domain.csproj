@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\Model\Argus.ServerSide.Automation.Model.Platform\Argus.ServerSide.Automation.Model.Platform.csproj" />
+		<ProjectReference Include="..\..\Model\Argus.ServerSide.Automation.Model\Argus.ServerSide.Automation.Model.Domain.csproj" />
+		<ProjectReference Include="..\..\Platform\Argus.ServerSide.Automation.Platform\Argus.ServerSide.Automation.Platform.csproj" />
+	</ItemGroup>
+
+</Project>

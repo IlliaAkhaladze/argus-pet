@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{A8531798-1CC4-44F4-B8AD-2E11A5C6DE25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platform", "Platform", "{D884CB91-E930-46B9-8715-8CB6D6A77074}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9F92F3ED-8711-453C-8B33-A9BC9E3289B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argus.ServerSide.Automation.Domain", "Domain\Argus.ServerSide.Automation.Domain\Argus.ServerSide.Automation.Domain.csproj", "{3A932632-0ED8-402F-9073-396E95C3161B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argus.ServerSide.Automation.Model.Domain", "Model\Argus.ServerSide.Automation.Model\Argus.ServerSide.Automation.Model.Domain.csproj", "{7AF4F2C6-019B-4CC9-B3AF-B1049FDC8717}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argus.ServerSide.Automation.Platform", "Platform\Argus.ServerSide.Automation.Platform\Argus.ServerSide.Automation.Platform.csproj", "{0D2BC2E6-30BB-4E8F-B6EE-3A7F662AC1CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argus.ServerSide.Automation.Bootstrap", "Tests\Argus.ServerSide.Automation.Bootstrap\Argus.ServerSide.Automation.Bootstrap.csproj", "{D49224A6-790A-47DF-876D-AA37C647FFFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argus.ServerSide.Automation.Tests", "Tests\Argus.ServerSide.Automation.Tests\Argus.ServerSide.Automation.Tests.csproj", "{11433182-9F95-41B1-9931-08AA37980BB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argus.ServerSide.Automation.TestData", "Tests\Argus.ServerSide.Automation.TestData\Argus.ServerSide.Automation.TestData.csproj", "{ACFB4818-D8B7-445B-874D-BE7630476835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argus.ServerSide.Automation.Model.Platform", "Model\Argus.ServerSide.Automation.Model.Platform\Argus.ServerSide.Automation.Model.Platform.csproj", "{9DDBB4BF-B166-461C-BCCC-280EB0C3E245}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argus.ServerSide.Automation.NUnit.Tests", "Tests\Argus.ServerSide.Automation.NUnit.Tests\Argus.ServerSide.Automation.NUnit.Tests.csproj", "{8D0D2373-E97A-455A-83DE-F7FB4CCF1975}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A932632-0ED8-402F-9073-396E95C3161B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A932632-0ED8-402F-9073-396E95C3161B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A932632-0ED8-402F-9073-396E95C3161B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A932632-0ED8-402F-9073-396E95C3161B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AF4F2C6-019B-4CC9-B3AF-B1049FDC8717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF4F2C6-019B-4CC9-B3AF-B1049FDC8717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF4F2C6-019B-4CC9-B3AF-B1049FDC8717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF4F2C6-019B-4CC9-B3AF-B1049FDC8717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D2BC2E6-30BB-4E8F-B6EE-3A7F662AC1CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2BC2E6-30BB-4E8F-B6EE-3A7F662AC1CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2BC2E6-30BB-4E8F-B6EE-3A7F662AC1CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2BC2E6-30BB-4E8F-B6EE-3A7F662AC1CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49224A6-790A-47DF-876D-AA37C647FFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49224A6-790A-47DF-876D-AA37C647FFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49224A6-790A-47DF-876D-AA37C647FFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49224A6-790A-47DF-876D-AA37C647FFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11433182-9F95-41B1-9931-08AA37980BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11433182-9F95-41B1-9931-08AA37980BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11433182-9F95-41B1-9931-08AA37980BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11433182-9F95-41B1-9931-08AA37980BB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACFB4818-D8B7-445B-874D-BE7630476835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACFB4818-D8B7-445B-874D-BE7630476835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACFB4818-D8B7-445B-874D-BE7630476835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACFB4818-D8B7-445B-874D-BE7630476835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DDBB4BF-B166-461C-BCCC-280EB0C3E245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DDBB4BF-B166-461C-BCCC-280EB0C3E245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DDBB4BF-B166-461C-BCCC-280EB0C3E245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DDBB4BF-B166-461C-BCCC-280EB0C3E245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D0D2373-E97A-455A-83DE-F7FB4CCF1975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0D2373-E97A-455A-83DE-F7FB4CCF1975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0D2373-E97A-455A-83DE-F7FB4CCF1975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0D2373-E97A-455A-83DE-F7FB4CCF1975}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A932632-0ED8-402F-9073-396E95C3161B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7AF4F2C6-019B-4CC9-B3AF-B1049FDC8717} = {A8531798-1CC4-44F4-B8AD-2E11A5C6DE25}
+		{0D2BC2E6-30BB-4E8F-B6EE-3A7F662AC1CB} = {D884CB91-E930-46B9-8715-8CB6D6A77074}
+		{D49224A6-790A-47DF-876D-AA37C647FFFD} = {9F92F3ED-8711-453C-8B33-A9BC9E3289B2}
+		{11433182-9F95-41B1-9931-08AA37980BB0} = {9F92F3ED-8711-453C-8B33-A9BC9E3289B2}
+		{ACFB4818-D8B7-445B-874D-BE7630476835} = {9F92F3ED-8711-453C-8B33-A9BC9E3289B2}
+		{9DDBB4BF-B166-461C-BCCC-280EB0C3E245} = {A8531798-1CC4-44F4-B8AD-2E11A5C6DE25}
+		{8D0D2373-E97A-455A-83DE-F7FB4CCF1975} = {9F92F3ED-8711-453C-8B33-A9BC9E3289B2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28AE81B9-A62F-4E53-A7B1-D11F20FA539B}
+	EndGlobalSection
+EndGlobal
