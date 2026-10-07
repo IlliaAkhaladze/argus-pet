@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+		<PackageReference Include="Reqnroll.Autofac" Version="3.3.4" />
+		<PackageReference Include="Reqnroll.NUnit" Version="3.3.4" />
+		<PackageReference Include="nunit" Version="4.4.0" />
+		<PackageReference Include="NUnit3TestAdapter" Version="5.1.0" />
+		<PackageReference Include="FluentAssertions" Version="8.11.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\Model\Argus.ServerSide.Automation.Model\Argus.ServerSide.Automation.Model.Domain.csproj" />
+		<ProjectReference Include="..\Argus.ServerSide.Automation.Bootstrap\Argus.ServerSide.Automation.Bootstrap.csproj" />
+		<ProjectReference Include="..\Argus.ServerSide.Automation.TestData\Argus.ServerSide.Automation.TestData.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="Features\PetGet.Definition.cs">
+			<DependentUpon>Pet.Get.feature</DependentUpon>
+		</Compile>
+		<Compile Update="Features\PetPost.Definition.cs">
+			<DependentUpon>Pet.Post.feature</DependentUpon>
+		</Compile>
+		<Compile Update="Features\PetDelete.Definition.cs">
+			<DependentUpon>Pet.Delete.feature</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="env.int.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="env.stg.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="reqnroll.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>
